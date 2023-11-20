@@ -1,7 +1,7 @@
 # aco-to-clrs-converter
 
 aco_to_clrs.py:
-This is a test script to convert Adobe ACO color swatch palettes t onative .clrs format. The script ignores colors in non-RGB color spaces. 
+This is a test script to convert Adobe ACO color swatch palettes to the native .clrs format. The script in this version ignores colors defined in non-RGB color spaces. 
 
 aco_to_csv.py:
 This script reads all colors from an ACO file and lists them as a csv table.
