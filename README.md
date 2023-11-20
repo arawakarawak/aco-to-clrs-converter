@@ -19,6 +19,7 @@ The specification of the values is listed in the "Specification of ACO file form
 
 Known issues: Photoshop seems to always export pure white and pure black as Grayscale, so these colors will be omitted by the aco_to_clrs.py script.
 
+There  are still errors in the script, hopefully they may be easily fixed.
 
 ------------------
 Links to sources:
