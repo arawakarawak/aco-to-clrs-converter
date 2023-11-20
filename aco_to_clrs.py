@@ -3,7 +3,7 @@ import csv
 import json
 
 def convert_to_hex_and_twos_complement(color_integer):
-    """ Convert the color integer to hex and to two's complement negative integer. """
+    # Convert the color integer to hex and to two's complement negative integer.
     hex_value = hex(color_integer)
     if color_integer > 0x7FFFFFFF:
         twos_complement_value = color_integer - 0x100000000
@@ -42,8 +42,8 @@ def generate_json_with_colors_and_comment(colors, json_file_path, input_file_nam
         json.dump(data, jsonfile, indent=4)
 
 # Example usage:
-# new_aco_file_path = '/path/to/aco/file.aco'  # Replace with the actual ACO file path
-# json_file_path = '/path/to/output/file.clrs'  # Replace with the desired output JSON file path
-
-# colors_with_hex_and_complement, omitted_count = read_rgb_aco_file_with_omitted_count(new_aco_file_path)
-# generate_json_with_colors_and_comment(colors_with_hex_and_complement, json_file_path, input_file_name, omitted_count)
+new_aco_file_path = '/path/to/aco/file.aco'  # Replace with the actual ACO file path
+json_file_path = '/path/to/output/file.clrs'  # Replace with the desired output JSON file path
+input_file_name = 'file.aco' # this is obviously redundant (pk)
+colors_with_hex_and_complement, omitted_count = read_rgb_aco_file_with_omitted_count(new_aco_file_path)
+generate_json_with_colors_and_comment(colors_with_hex_and_complement, json_file_path, input_file_name, omitted_count)
