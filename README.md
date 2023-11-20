@@ -13,5 +13,12 @@ c2
 c3	
 c4,
 where c1..c4 are the integer values of meaning depending on the color_space.
-The specification of the values is listed in the "Specification of ACO file format.docx" doc.
 
+The specification of the values is listed in the "Specification of ACO file format.docx" file.
+
+
+
+------------------
+Links to sources:
+http://www.selapa.net/swatches/colors/fileformats.php#adobe_acb
+https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/#50577411_pgfId-1055819
