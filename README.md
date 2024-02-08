@@ -27,7 +27,7 @@ Also, it happens to add colors that were not in the original file (at the end of
 
 
 ----------------------
-Update Feb 8, 2024: added slightly enhanced version of the aco-to-clrs.py script (aco-to-clrs_UI2.py). This version has rudimentary UI (asks for the source file and the output location). Much more convenient to use.
+Update Feb 8, 2024: added slightly enhanced version of the aco-to-clrs.py script (aco-to-clrs_UI2.py). This version has rudimentary UI (asks for the source file and the output location). Much more convenient to use. (current version of this script has issues in conversion logic; DO NOT USE)
 
 ------------------
 Links to sources:
