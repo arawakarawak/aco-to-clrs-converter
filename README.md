@@ -25,6 +25,10 @@ This seems to be caused by the internal structure of the ACO file (the color def
 
 Also, it happens to add colors that were not in the original file (at the end of the CLRS list). This is more serious. Probably the script reads too many color blocks (with the last blocks being misread unrelated data (like the header of the 'version 2' section)
 
+
+----------------------
+Update Feb 8, 2024: added slightly enhanced version of the aco-to-clrs.py script (aco-to-clrs_UI2.py). This version has rudimentary UI (asks for the source file and the output location). Much more convenient to use.
+
 ------------------
 Links to sources:
 http://www.selapa.net/swatches/colors/fileformats.php#adobe_acb
